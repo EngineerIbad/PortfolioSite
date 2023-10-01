@@ -1,0 +1,9 @@
+.location-page{
+    height: 80%;
+    width: 100%;
+}
+
+.location-page>img{
+    height: 100%;
+    width: 100%;
+}

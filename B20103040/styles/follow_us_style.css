@@ -1,0 +1,54 @@
+.follow-us-page {
+    height: 75%;
+    width: 100%;
+    background: var(--footer-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
+}
+
+.follow-button {
+    height: 40px;
+    background-color: rgba(53, 51, 49, 0.895);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    margin: 32px 0px 16px 0px;
+}
+
+.follow-button>h3 {
+    margin: 0px 24px 0px 10px;
+    color: rgb(234, 232, 232);
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.follow-button>i {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(234, 232, 232);
+    margin: 0 0 0 24px;
+}
+
+.grid-8 {
+    height: 72%;
+    width: 97%;
+    display: grid;
+    /* background-color: aqua; */
+    /* column-gap: 25px; */
+    /* row-gap: 25px; */
+    grid-template-columns: repeat(8, auto);
+    margin: 0;
+}
+
+.grid-8>img {
+    margin: auto;
+    height: 135px;
+    width: 135px;
+}

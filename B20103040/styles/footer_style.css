@@ -1,5 +1,15 @@
 .footer{
-    height: 120%;
+    height: 90px;
     width: 100%;
-    background: rgba(143, 142, 142, 0.895);
+    background: var(--footer-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer>p{
+    color: white;
+    margin: 0;
 }

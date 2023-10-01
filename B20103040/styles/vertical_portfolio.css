@@ -1,0 +1,60 @@
+.vertical-portfolio-page {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-divs {
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    background-color: rgba(63, 63, 63, 0.621);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 0 56px 56px 56px;
+}
+
+.portfolio-divs:nth-child(1) {
+    background-image: url("https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.portfolio-divs:nth-child(2) {
+    background-image: url("https://images.pexels.com/photos/3861959/pexels-photo-3861959.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.portfolio-divs:nth-child(3) {
+    background-image: url("https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.portfolio-divs:nth-child(4) {
+    background-image: url("https://images.pexels.com/photos/5926387/pexels-photo-5926387.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.portfolio-divs>h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.portfolio-divs>p {
+    color: rgb(232, 232, 232);
+}
+
+#vertical-portfolio-view-more{
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid rgb(232, 232, 232);
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(232, 232, 232);
+    border-radius: 5px;
+    cursor: pointer;
+}

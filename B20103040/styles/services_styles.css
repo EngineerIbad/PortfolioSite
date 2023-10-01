@@ -18,7 +18,7 @@
     display: none;
 }
 
-.services-page>* {
+.services-page>*{
     scroll-snap-align: start;
 }
 

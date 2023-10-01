@@ -1,5 +1,44 @@
-.story-page{
-    height: 80%;
+.story-page {
+    height: 85%;
     width: 100%;
     background: rgba(236, 233, 233, 0.895);
+    display: flex;
+}
+
+.story-page>img {
+    height: 100%;
+    width: 50%;
+}
+
+.story-div {
+    padding: 1.5rem;
+}
+
+.story-div>h1 {
+    margin: 32px 0px;
+}
+
+.story-div>h3 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.story-div>p {
+    margin: 32px 0px;
+    font-size: 16px;
+    word-spacing: 4px;
+    line-height: 24px;
+}
+
+#view-more-button {
+    height: 40px;
+    width: 120px;
+    margin-left: 8px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 500;
+    /* color: rgba(255, 255, 255, 0.82); */
+    border-radius: 5px;
+    cursor: pointer;
 }

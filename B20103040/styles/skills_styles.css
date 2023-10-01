@@ -2,7 +2,7 @@
     --horizontal-space: 1.5rem;
     --vertical-space: 1.5rem;
     
-    height: 90%;
+    height: 80%;
     width: 100%;
     background: white;
     display: grid;
@@ -16,8 +16,7 @@
 
 .skills-card{
     margin: var(--vertical-space) var(--horizontal-space);
-    background-color: aqua;
-    height: 80%;
+    /* height: 80%; */
     /* width: 80%; */
     display: flex;
     flex-direction: column;
@@ -56,7 +55,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* margin-bottom: 24px; */
+    margin-bottom: 24px;
 }
 
 .skills-percentage-text-div {
@@ -69,6 +68,18 @@
 
 .skills-percentage-text-div>* {
     margin: 0;
+}
+
+.skills-percentage-text-div>p{
+    font-size: 16px;
+    font-weight: 300;
+    color: grey;
+}
+
+.skills-percentage-text-div>h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(88, 88, 88);
 }
 
 .progress-bar {

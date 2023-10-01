@@ -23,7 +23,7 @@
     height: 100%;
 }
 
-.input-div {
+.input-div{
     width: 100%;
     height: 35px;
     /* background-color: grey; */
@@ -85,18 +85,18 @@
     /* background-color: blue; */
 }
 
-.visit-us-div>div>h1 {
+.visit-us-div>div>div>h1 {
     margin: 32px 0px;
 }
 
-.visit-us-div>div>h3 {
+.visit-us-div>div>div>h3 {
     font-size: 14px;
     font-weight: 500;
     margin: 0;
     text-transform: uppercase;
 }
 
-.visit-us-div>div>h4 {
+.visit-us-div>div>div>h4 {
     font-size: 13px;
     font-weight: 500;
     margin: 0 0 16px 0;
@@ -104,14 +104,14 @@
 
 }
 
-.visit-us-div>div>h5 {
+.visit-us-div>div>div>h5 {
     font-size: 13px;
     font-weight: 400;
     margin: 0;
     color: grey;
 }
 
-.visit-us-div>div>p {
+.visit-us-div>div>div>p {
     margin: 32px 0px 16px 0px;
     font-size: 13px;
     word-spacing: 4px;
